@@ -5,14 +5,14 @@ The Chaincoin block explorer.
 
 This project is a fork of [Iquidus Explorer](https://github.com/iquidus/explorer) so massive thanks go out to Luke Williams for his code! Thank you!!!
 
-Forked from: https://github.com/sparkscrypto/ciquidus(https://github.com/sparkscrypto/ciquidus)
+Forked from: [https://github.com/sparkscrypto/ciquidus](https://github.com/sparkscrypto/ciquidus)
 
 ### See it in action
 
 *  [http://107.173.183.87:3001/](http://107.173.183.87:3001/)
 
 ### Great Resource for building your own block explorer
-* https://gist.github.com/zeronug/5c66207c426a1d4d5c73cc872255c572(https://gist.github.com/zeronug/5c66207c426a1d4d5c73cc872255c572)
+* [https://gist.github.com/zeronug/5c66207c426a1d4d5c73cc872255c572](https://gist.github.com/zeronug/5c66207c426a1d4d5c73cc872255c572)
 
 
 ### Requires
