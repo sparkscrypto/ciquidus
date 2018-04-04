@@ -40,6 +40,10 @@ html
              var pivx = result[0].price_usd;
                   $("#lastUSD").text("$"+pivx);
             });
+            $.getJSON("https://api.coinmarketcap.com/v1/ticker/bitcoin/", function(btc){
+             var btc = btc[0].price_usd;
+                  $("#BTC").html("<strong>$"+btc+"</strong>");
+            });
           }});
         }
         $('.block-last-next').tooltip({
@@ -166,7 +170,13 @@ html
         .col-md-2
           .panel.panel-default.hidden-sm.hidden-xs
             .panel-heading
-              strong #{settings.markets.exchange} Price
+              strong #{settings.markets.exchange} Price @  
+                if settings.index.difficulty == 'Hybrid'
+                  label#BTC -
+                  <br>
+                  label#lblX1
+                else
+                  label#BTC -                
             .panel-body
               #pricepanel
                 span.glyphicon.fab.fa-btc
@@ -236,7 +246,8 @@ html
         ul.nav
           li.text-center(style='margin-left:80px;margin-right:80px;')
             p(style='margin-top:15px;')
-              a.navbar-link(href='https://github.com/suprnurd/ciquidus', target='_blank') Ciquidus Alpha
+              a.navbar-link(href='https://github.com/suprnurd/ciquidus', target='_blank') Ciquidus Alpha 
+                span | @slimjim
       span.connections
         label#lblBlockcount.label.label-default -
         label#lblConnections.label.label-default -
