@@ -105,22 +105,22 @@ html
             if settings.heavy == true
               li#reward
                 a.navbar-link(href='/reward')
-                  span.fa.fa-star
+                  span.fas.fa-star
                   span.menu-text #{settings.locale.menu_reward}
             if settings.display.movement == true
               li#movement
                 a.navbar-link.loading(href='/movement')
-                  span.fa.fa-money
+                  span.fas.fa-money
                   span.menu-text #{settings.locale.menu_movement}
             if settings.display.network == true
               li#network
                 a.navbar-link(href='/network')
-                  span.fa.fa-share-alt
+                  span.fas.fa-share-alt
                   span.menu-text #{settings.locale.menu_network}
             if settings.display.richlist == true
               li#richlist
                 a.navbar-link(href='/richlist')
-                  span.fa.fa-btc
+                  span.fas.fa-btc
                   span.menu-text #{settings.locale.menu_richlist}
             if settings.display.markets == true
               li#markets
@@ -152,7 +152,7 @@ html
                 strong #{settings.locale.network} (H/s)
             .panel-body
               #hashratepanel
-                span.glyphicon.fa.fa-gears
+                span.glyphicon.fas.fa-gears
                 if settings.index.difficulty == 'Hybrid'
                   label#hashrate -
                   <br>
@@ -165,7 +165,7 @@ html
               strong #{settings.locale.difficulty}
             .panel-body
               #difficultypanel
-                span.glyphicon.fa.fa-sliders
+                span.glyphicon.fas.fa-sliders
                 if settings.index.difficulty == 'Hybrid'
                   label#difficulty -
                   <br>
@@ -178,7 +178,7 @@ html
               strong #{settings.locale.masternodecount}
             .panel-body
               #masternodepanel
-                span.glyphicon.fa.fa-exclamation-triangle
+                span.glyphicon.fas.fa-exclamation-triangle
                 label#masternodeCountOffline -
                 label &nbsp;&#x2F;&nbsp;        
                 label#masternodeCountOnline -
@@ -189,7 +189,7 @@ html
               strong #{settings.locale.ex_supply} (#{settings.symbol})
             .panel-body
               #supplypanel
-                span.glyphicon.fa.fa-pie-chart
+                span.glyphicon.fas.fa-pie-chart
                 if settings.index.difficulty == 'Hybrid'
                   label#supply -
                   <br>
@@ -202,7 +202,7 @@ html
               strong #{settings.markets.exchange} Price
             .panel-body
               #pricepanel
-                span.glyphicon.fa.fa-rocket
+                span.glyphicon.fas.fa-rocket
                 if settings.index.difficulty == 'Hybrid'
                   label#lastPrice -
                   <br>
@@ -222,17 +222,17 @@ html
           ul.nav.navbar-nav
             li.pull-left
               a#github-icon(href="https://github.com/#{settings.github}", target='_blank')
-                span.glyphicon.fa.fa-github
-        if settings.display.slack
+                span.glyphicon.fab.fa-github
+        if settings.display.discord
           ul.nav.navbar-nav
             li.pull-left
-              a#slack-icon(href="#{settings.slack}", target='_blank')
-                span.glyphicon.fa.fa-slack
+              a#discord-icon(href="{settings.discord}", target='_blank')
+                span.glyphicon.fab.fa-discord
         if settings.display.twitter
           ul.nav.navbar-nav
             li.pull-left
               a#twitter-icon(href="https://twitter.com/#{settings.twitter}", target='_blank')
-                span.glyphicon.fa.fa-twitter
+                span.glyphicon.fab.fa-twitter
         if settings.display.facebook
           ul.nav.navbar-nav
             li.pull-left
