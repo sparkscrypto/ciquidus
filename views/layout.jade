@@ -36,6 +36,10 @@ html
             $("#lblConnections").text(json.data[0].connections + ' connections');
             $("#lblBlockcount").text(json.data[0].blockcount + ' blocks');
             $("#lblX1").text(' ');
+            $.getJSON("https://api.coinmarketcap.com/v1/ticker/PIVX/", function(result){
+             var pivx = result[0].price_usd;
+                  $("#lastUSD").text("$"+pivx);
+            });
           }});
         }
         $('.block-last-next').tooltip({
@@ -132,54 +136,20 @@ html
 
     .col-md-12
       .row.text-center
-        .col-md-2.col-md-offset-1
-          .panel.panel-default.hidden-sm.hidden-xs
-            .panel-heading
-              if settings.nethash_units == 'K'
-                strong #{settings.locale.network} (KH/s)
-              else if settings.nethash_units == 'M'
-                strong #{settings.locale.network} (MH/s)
-              else if settings.nethash_units == 'G'
-                strong #{settings.locale.network} (GH/s)
-              else if settings.nethash_units == 'T'
-                strong #{settings.locale.network} (TH/s)
-              else if settings.nethash_units == 'P'
-                strong #{settings.locale.network} (PH/s)
-              else if settings.nethash_units == 'H'
-                strong #{settings.locale.network} (H/s)
-            .panel-body
-              #hashratepanel
-                span.glyphicon.fas.fa-gears
-                if settings.index.difficulty == 'Hybrid'
-                  label#hashrate -
-                  <br>
-                  label#lblX1
-                else
-                  label#hashrate -
         .col-md-2
-          .panel.panel-default.hidden-sm.hidden-xs
-            .panel-heading
-              strong #{settings.locale.difficulty}
-            .panel-body
-              #difficultypanel
-                span.glyphicon.fas.fa-sliders
-                if settings.index.difficulty == 'Hybrid'
-                  label#difficulty -
-                  <br>
-                  label#difficultyHybrid -
-                else
-                  label#difficulty -
+          
         .col-md-2
          .panel.panel-default.hidden-sm.hidden-xs
             .panel-heading
               strong #{settings.locale.masternodecount}
             .panel-body
               #masternodepanel
-                span.glyphicon.fas.fa-exclamation-triangle
-                label#masternodeCountOffline -
-                label &nbsp;&#x2F;&nbsp;        
                 label#masternodeCountOnline -
                 span.glyphicon.fas.fa-check-circle
+                label &nbsp;&#x2F;&nbsp;
+                label#masternodeCountOffline -
+                span.glyphicon.fas.fa-exclamation-triangle
+       
         .col-md-2
           .panel.panel-default.hidden-sm.hidden-xs
             .panel-heading
@@ -199,14 +169,26 @@ html
               strong #{settings.markets.exchange} Price
             .panel-body
               #pricepanel
-                span.glyphicon.fas.fa-rocket
+                span.glyphicon.fab.fa-btc
                 if settings.index.difficulty == 'Hybrid'
                   label#lastPrice -
                   <br>
                   label#lblX1
                 else
                   label#lastPrice -                
-
+        .col-md-2
+          .panel.panel-default.hidden-sm.hidden-xs
+            .panel-heading
+              strong USD Price
+            .panel-body
+              #pricepanel
+                span.glyphicon.fas.fa-money-bill-alt
+                if settings.index.difficulty == 'Hybrid'
+                  label#lastUSD -
+                  <br>
+                  label#lblX1
+                else
+                  label#lastUSD - 
       .row.text-center(style='margin-top:10px;margin-bottom:20px;')
         form.form-inline(method='post', action='/search')
           #index-search.form-group
