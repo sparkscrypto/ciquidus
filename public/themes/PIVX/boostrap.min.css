@@ -3730,7 +3730,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     }
 }
 .navbar-default{
-    background-color:#ffffff;
+    background-color:#rgb(92,76,124);
     border-color:transparent
 }
 .navbar-default .navbar-brand{
@@ -3744,7 +3744,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     color:#bbbbbb
 }
 .navbar-default .navbar-nav>li>a{
-    color:#666666
+    color:rgb(188,190,192)
 }
 .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus{
     color:#212121;
@@ -3792,7 +3792,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     }
 }
 .navbar-default .navbar-link{
-    color:#666666
+   color: rgb(188,190,192);
 }
 .navbar-default .navbar-link:hover{
     color:#212121
@@ -4034,7 +4034,7 @@ a.label:hover,a.label:focus{
     top:-1px
 }
 .label-default{
-    background-color:#bbbbbb
+    background-color:rgb(55,47,68);
 }
 .label-default[href]:hover,.label-default[href]:focus{
     background-color:#a2a2a2
