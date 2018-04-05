@@ -6200,3 +6200,7 @@ input[type="checkbox"]:disabled:checked:after,.checkbox input[type="checkbox"]:d
     -webkit-box-shadow:0 1px 4px rgba(0,0,0,0.3);
     box-shadow:0 1px 4px rgba(0,0,0,0.3)
 }
+.bottom-nave{
+    box-shadow:5px 5px 5px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow:5px 5px 5px 5px rgba(0,0,0,0.5);
+}
