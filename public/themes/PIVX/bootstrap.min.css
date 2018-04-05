@@ -3730,7 +3730,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     }
 }
 .navbar-default{
-    background-color:#rgb(92,76,124);
+    background-color:rgb(92,76,124);
     border-color:transparent
 }
 .navbar-default .navbar-brand{
