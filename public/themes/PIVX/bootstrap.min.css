@@ -2685,7 +2685,7 @@ textarea.form-group-lg .form-control,select[multiple].form-group-lg .form-contro
     background-color:#ffffff
 }
 .btn-success{
-    color:#ffffff;
+    color:#666666;
     background-color:#4caf50;
     border-color:transparent
 }
@@ -5697,9 +5697,9 @@ button.close{
     box-shadow:2px 2px 2px rgba(0,0,0,0.3)
 }
 .btn-success{
-    background-image:-webkit-radial-gradient(circle, #4caf50 80%, #439a46 81%);
-    background-image:-o-radial-gradient(circle, #4caf50 80%, #439a46 81%);
-    background-image:radial-gradient(circle, #4caf50 80%, #439a46 81%);
+    background-image:-webkit-radial-gradient(circle, #dddddd 80%, #bbbbbb 81%);
+    background-image:-o-radial-gradient(circle, #ddd 80%, #bbbbbb 81%);
+    background-image:radial-gradient(circle, #ddd 80%, #bbbbbb 81%);
     background-repeat:no-repeat;
     -webkit-background-size:200% 200%;
     background-size:200%;
@@ -5711,13 +5711,13 @@ button.close{
 .btn-success:hover{
     -webkit-background-size:100% 100%;
     background-size:100%;
-    border-color:#439a46
+    border-color:#bbbbbb
 }
 .btn-success:active{
-    background-color:#439a46;
-    background-image:-webkit-radial-gradient(circle, #439a46 10%, #4caf50 11%);
-    background-image:-o-radial-gradient(circle, #439a46 10%, #4caf50 11%);
-    background-image:radial-gradient(circle, #439a46 10%, #4caf50 11%);
+    background-color:rgb(92,76,124);
+    background-image:-webkit-radial-gradient(circle, rgb(92,76,124) 10%, rgb(55,47,68) 11%);
+    background-image:-o-radial-gradient(circle, rgb(92,76,124) 10%, rgb(55,47,68)  11%);
+    background-image:radial-gradient(circle, rgb(92,76,124) 10%, rgb(55,47,68)  11%);
     background-repeat:no-repeat;
     -webkit-background-size:1000% 1000%;
     background-size:1000%;
@@ -5866,8 +5866,8 @@ textarea,textarea.form-control,input.form-control,input[type=text],input[type=pa
     font-size:16px
 }
 textarea:focus,textarea.form-control:focus,input.form-control:focus,input[type=text]:focus,input[type=password]:focus,input[type=email]:focus,input[type=number]:focus,[type=text].form-control:focus,[type=password].form-control:focus,[type=email].form-control:focus,[type=tel].form-control:focus,[contenteditable].form-control:focus{
-    -webkit-box-shadow:inset 0 -2px 0 #2196f3;
-    box-shadow:inset 0 -2px 0 #2196f3
+    -webkit-box-shadow:inset 0 -2px 0 rgb(92,76,124);
+    box-shadow:inset 0 -2px 0 rgb(92,76,124);
 }
 textarea[disabled],textarea.form-control[disabled],input.form-control[disabled],input[type=text][disabled],input[type=password][disabled],input[type=email][disabled],input[type=number][disabled],[type=text].form-control[disabled],[type=password].form-control[disabled],[type=email].form-control[disabled],[type=tel].form-control[disabled],[contenteditable].form-control[disabled],textarea[readonly],textarea.form-control[readonly],input.form-control[readonly],input[type=text][readonly],input[type=password][readonly],input[type=email][readonly],input[type=number][readonly],[type=text].form-control[readonly],[type=password].form-control[readonly],[type=email].form-control[readonly],[type=tel].form-control[readonly],[contenteditable].form-control[readonly]{
     -webkit-box-shadow:none;
