@@ -3299,11 +3299,11 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     border-color:#464545 #464545 #464545
 }
 .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus{
-    color:#24252a;
+    color: #ffffff;
     background-color:#222222;
     border:1px solid #464545;
     border-bottom-color:transparent;
-    cursor:default
+    cursor:default;
 }
 .nav-tabs.nav-justified{
     width:100%;
