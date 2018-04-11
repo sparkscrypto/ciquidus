@@ -1,0 +1,358 @@
+body {
+  padding: 80px 40px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* background-image: url('/images/background2.png');*/
+}
+
+#index-search {
+	width: 80%;
+}
+
+.nav-search input {
+	width: 400px !important;
+	margin-right: 5px;	
+}
+
+.view_tx {
+	text-align: center;
+}
+
+
+
+.block-last {
+	margin: 0;
+	margin-right: 10px;
+}
+
+.block-next {
+	margin: 0;
+	margin-left: 10px;
+}
+#chart3 .jqplot-xaxis {
+	display: none;
+}
+
+.data {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.txid {
+	width: 100%;
+	display:block;
+	overflow: hidden;
+}
+
+.panel-address-summary {
+ margin-bottom: 5px;
+}
+
+/* datatable tweaks */
+table {
+	width: 100% !important;
+}
+.dataTables_info, .dataTables_length {
+	padding-left: 220px;
+}
+
+.dataTables_info {
+	display: hidden !important;
+}
+
+.dataTables_length {
+	padding-top: 10px;
+}
+
+.dataTables_paginate {
+	padding-right: 5px;
+}
+
+.tab-pane {
+	margin-top: 5px;
+}
+
+table a:not(.btn),.table a:not(.btn){
+	text-decoration:none
+}
+
+tr {
+	width: 100%;
+}
+
+.footer-padding {
+	height: 50px;
+	width: 100%;
+}
+
+.summary-table {
+    margin: 0px !important;
+    margin-left: 227px !important;
+    margin-right: 250px !important;
+    width: 70% !important;
+}
+
+#loading-icon {
+	width: 30px;
+    margin: 10px 10px;
+}
+
+.menu-text {
+	margin-left:5px;
+}
+
+#twitter-icon, 
+#facebook-icon, 
+#googleplus-icon, 
+#bitcointalk-icon, 
+#website-icon, 
+#github-icon, 
+#discord-icon {
+	font-size: 20px;
+}
+
+.connections {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+#lblBlockcount {
+	margin-right: 10px;
+}
+
+#twitter-icon img, 
+#facebook-icon img, 
+#googleplus-icon img, 
+#bitcointalk-icon img, 
+#website-icon img, 
+#github-icon img, 
+#discord-icon img{
+	width: 40px;
+	margin: 5px 5px;
+}
+
+#market_menu {
+	margin-bottom: 5px;
+}
+
+#hashratepanel span,
+#difficultypanel span,
+#supplypanel span,
+#masternodepanel span,
+#pricepanel span{
+	margin: 0 5px 0 5px;
+	top: 0;
+}
+
+.label a:link {
+	color: #ffffff;
+}
+
+.label a:visited {
+	color: #ffffff;
+}
+
+.label a:hover {
+	color: #ffffff;
+}
+
+.label a:active {
+	color: #ffffff;
+}
+
+@media(max-width:767px){
+	body {
+		padding: 0px;
+		padding-top:60px;
+	}
+}
+
+@media(max-width:1096px){
+	.nav-search input {
+	    width: 300px !important;
+    }
+}
+
+@media(max-width:865px){
+	.nav-search input {
+	    width: 150px !important;
+    }
+}
+.qrcode {
+	position: absolute;
+	top: 65px;
+	right: 15px;
+}
+
+.footer-logo {
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+}
+
+
+
+
+body {
+  background: #000000;
+  font-family: 'Roboto', sans-serif;
+ }
+
+
+
+
+/* links */
+
+a {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color:#5c4c7c;
+  outline: none;
+}
+
+
+
+
+label {
+  color: #cccccc;
+  font-weight:300;
+}
+
+
+
+
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  /* padding-left: 10px; */
+  /* padding-right: 21px; */
+}
+
+
+/*fraglich*/
+.col-md-6,
+.col-xs-12 {
+	padding-left: 120px !important;
+	padding-right: 100px !important;
+	width:100%; 
+}
+
+/*navbar*/
+
+.navbar {
+  min-height: 60px;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:focus {
+  width: 200px;
+  background-color: rgb(92,76,124);
+  height: 60px;
+  padding: 20px 25px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover {
+	background-color: rgb(34, 35, 40);
+	color:#5c4c7c
+}
+
+/* panel */
+
+.panel {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  /* color: rgb(92,76,124); */
+
+}
+
+
+
+
+/* table steifen gerade */
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(68, 70, 79, 0.5);
+}
+
+
+/* table rahmen */
+
+.table-bordered,
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border-color: #3d404c;
+}
+
+
+
+
+
+/* table rschriften */
+th {
+  color: #cccccc;
+}
+
+.panel-heading {
+    background-color: #dddddd00 !important;
+    }
+
+    .panel-body {
+    /* background-color:#dddddd29 !important; */
+    border-top-style: hidden;
+
