@@ -277,13 +277,6 @@ label {
 }
 
 
-/*fraglich*/
-.col-md-6,
-.col-xs-12 {
-	padding-left: 120px !important;
-	padding-right: 100px !important;
-	width:100%; 
-}
 
 /*navbar*/
 
