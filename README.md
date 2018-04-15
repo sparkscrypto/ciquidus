@@ -5,9 +5,14 @@ The Chaincoin block explorer.
 
 This project is a fork of [Iquidus Explorer](https://github.com/iquidus/explorer) so massive thanks go out to Luke Williams for his code! Thank you!!!
 
+Forked from: [https://github.com/sparkscrypto/ciquidus](https://github.com/sparkscrypto/ciquidus)
+
 ### See it in action
 
-*  [explorer.chaincoin.org](https://explorer.chaincoin.org)
+*  [http://explorer.pivx.support:3001/](http://explorer.pivx.support:3001/)
+
+### Great Resource for building your own block explorer
+* [https://gist.github.com/zeronug/5c66207c426a1d4d5c73cc872255c572](https://gist.github.com/zeronug/5c66207c426a1d4d5c73cc872255c572)
 
 
 ### Requires
@@ -102,11 +107,6 @@ The wallet connected to Ciquidus must be running with atleast the following flag
 
     -daemon -txindex
 
-### Donate
-    
-    CHC: CLkWg5YSLod772uLzsFRxHgHiWVGAJSezm
-    BTC: 1J8Chi5teDJrvBtSuQhioNCHfTNBCcCrPx
-
 ### Known Issues
 
 **script is already running.**
@@ -134,7 +134,6 @@ Where [SIZE] is an integer higher than the default.
 *note: SIZE will depend on which blockchain you are using, you may need to play around a bit to find an optimal setting*
 
 ### License
-
 Copyright (c) 2017, The Chaincoin Community  
 Copyright (c) 2015, Iquidus Technology  
 Copyright (c) 2015, Luke Williams  

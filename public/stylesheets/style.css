@@ -1,7 +1,7 @@
 body {
   padding: 80px 40px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
- /* background-image: url('/images/background2.png');*/
+  /* background-image: url('/images/background2.png');*/
 }
 
 #index-search {
@@ -16,6 +16,8 @@ body {
 .view_tx {
 	text-align: center;
 }
+
+
 
 .block-last {
 	margin: 0;
@@ -51,7 +53,7 @@ table {
 	width: 100% !important;
 }
 .dataTables_info, .dataTables_length {
-	padding-left: 10px;
+	padding-left: 220px;
 }
 
 .dataTables_info {
@@ -84,7 +86,10 @@ tr {
 }
 
 .summary-table {
-	margin: 0px !important;
+    margin: 0px !important;
+    margin-left: 227px !important;
+    margin-right: 250px !important;
+    width: 70% !important;
 }
 
 #loading-icon {
@@ -102,7 +107,7 @@ tr {
 #bitcointalk-icon, 
 #website-icon, 
 #github-icon, 
-#slack-icon {
+#discord-icon {
 	font-size: 20px;
 }
 
@@ -122,7 +127,7 @@ tr {
 #bitcointalk-icon img, 
 #website-icon img, 
 #github-icon img, 
-#slack-icon img{
+#discord-icon img{
 	width: 40px;
 	margin: 5px 5px;
 }
@@ -185,4 +190,162 @@ tr {
 	position: absolute;
 	bottom: 0px;
 }
+
+
+
+
+body {
+  background: #000000;
+  font-family: 'Roboto', sans-serif;
+ }
+
+
+
+
+/* links */
+
+a {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color:#5c4c7c;
+  outline: none;
+}
+
+
+
+
+label {
+  color: #cccccc;
+  font-weight:300;
+}
+
+
+
+
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  /* padding-left: 10px; */
+  /* padding-right: 21px; */
+}
+
+
+
+/*navbar*/
+
+.navbar {
+  min-height: 60px;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:focus {
+  width: 200px;
+  background-color: rgb(92,76,124);
+  height: 60px;
+  padding: 20px 25px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover {
+	background-color: rgb(34, 35, 40);
+	color:#5c4c7c
+}
+
+/* panel */
+
+.panel {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  /* color: rgb(92,76,124); */
+
+}
+
+
+
+
+/* table steifen gerade */
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(68, 70, 79, 0.5);
+}
+
+
+/* table rahmen */
+
+.table-bordered,
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border-color: #3d404c;
+}
+
+
+
+
+
+/* table rschriften */
+th {
+  color: #cccccc;
+}
+
+.panel-heading {
+    background-color: #dddddd00 !important;
+    }
+
+    .panel-body {
+    /* background-color:#dddddd29 !important; */
+    border-top-style: hidden;
 
